@@ -1,0 +1,32 @@
+@import url('nav.css');
+@import url('footer.css');
+
+body{
+    background-color: #f1d120;
+}
+
+.introduction .content{
+    background-image: url(../img/background2.png);
+    background-size: 90%;
+    display: flex;
+}
+
+.introduction .content .text-column{
+    display: grid;
+}
+
+.introduction .content .text-column .logo{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+}
+
+.introduction .content .text{
+    color: #f5f5f5;
+    text-transform: none;
+    padding: 20px;
+    margin-right: 100px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+}

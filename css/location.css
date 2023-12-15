@@ -1,0 +1,48 @@
+@import url('nav.css');
+@import url('footer.css');
+
+body{
+    background-image: url('../img/background1.png');
+    background-size: 80%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.header .text{
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 48px;
+    font-weight: 600;
+    color: #f1d120;
+}
+
+.content{
+    display: flex;
+    color: #f1d120;
+}
+
+.content .map{
+    margin-left: auto;
+}
+
+.content .hours{
+    background-image: url('../img/texture_black.jpg');
+    margin-right: auto;
+}
+
+.content .hours .text{
+    font-weight: 500;
+    font-size: 24px;
+    padding: 20px;
+}
+
+.content .hours .text .title{
+    font-weight: 700;
+    font-size: 32px;
+    margin-left: auto;
+}

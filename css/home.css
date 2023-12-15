@@ -1,0 +1,232 @@
+@import url('nav.css');
+@import url('footer.css');
+
+body{
+    background-color: #f1d120;
+}
+
+.modal{
+    display: block;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content{
+    background-color: #333;
+    margin: 15% auto;
+    padding: 5px;
+    border: 1px solid #f1d120;
+    width: 80%;
+    text-align: center;
+    color: #f1d120;
+}
+
+.modal-content .title{
+    font-size: 32px;
+}
+
+.modal-content .body{
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.close{
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.close:hover,
+.close:focus{
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.hero-section{
+    width: 100%;
+    height: calc(100vh - 120px);
+    background-image: url('../img/restaurant4.png');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-section .logo{
+    height: 150px;
+    display: block;
+    margin: auto;
+}
+
+.hero-section .sub-heading{
+    margin-top: 10px;
+    text-align: center;
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 35px;
+    font-weight: 300;
+}
+
+.hook{
+    background-image: url('../img/texture_black.jpg');
+    display: grid;
+}
+
+.hook .content{
+    display: flex;
+}
+
+.hook .pictures{
+    display: flex;
+    padding: 5px
+}
+
+.hook .solo{
+    margin-left: 250px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 5px;
+    overflow: hidden;
+    transition: all 0.25s;
+}
+
+.hook .stack{
+    display: grid;
+    margin: auto;
+    overflow: hidden;
+    transition: all 0.25s;
+}
+
+.hook .stack .pic2{
+    transition: all 1s;
+}
+
+.hook .stack .pic3{
+    transition: all 1s;
+    padding-top: 8px;
+}
+
+.hook .stack .pic2:hover{
+    width: 105%;
+    height: auto;
+    text-shadow: 2px 2px;
+}
+
+.hook .stack .pic3:hover{
+    width: 105%;
+    height: auto;
+    text-shadow: 2px 2px;
+}
+
+.hook .text{
+    margin-top: 60px;
+    margin-right: 400px;
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.hook .text .body{
+    color: #f5f5f5;
+    font-size: 30px;
+    font-weight: 500;
+    text-transform: none;
+}
+
+.hook .text .text-begin{
+    color: #f1d120;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.hook .text .highlight{
+    color: #f1d120;
+}
+
+.hook .button{
+    margin: auto;
+}
+
+.hook .action-button{
+    background: url('../img/texture_black.jpg');
+    color: #f1d120;
+    border: none;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 60px;
+    font-weight: 600;
+    cursor: pointer;
+    outline: solid thick #f1d120;
+    margin-bottom: 40px;
+    transition: all 0.5s;
+}
+
+.hook .action-button .link{
+    transition: all .5s;
+}
+
+.hook .action-button .link:hover{
+    background: #f1d120;
+    color: #f5f5f5;
+    border: none;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 60px;
+    font-weight: 600;
+    cursor: pointer;
+    outline: inherit;
+    margin-bottom: 40px;
+}
+
+.location{
+    background-image: url('../img/background1.png');
+    background-size: 30%;
+    display: grid;   
+}
+
+.location .text{
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    color: #f1d120;
+}
+
+.location .map{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+.collage{
+    background-image: url('../img/texture_black.jpg');
+    background-size: 30%;
+    margin: auto;
+}
+
+.collage .row{
+    display: flex;
+    padding: 5px;
+}
+
+.collage .row .pic1{
+    margin-left: auto;
+}
+
+.collage .row .stack{
+    display: grid;
+    padding: 5px;
+}
+
+.collage .row .pic6{
+    margin-right: auto;
+}

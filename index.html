@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Chubby Curry</title>
+        <link rel="stylesheet" href="css/home.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:wght@100,200,300,400,500,600,700,800,900&display=swap">
+    </head>
+    <body>
+        <nav class="navbar"></nav>
+        <script src="js/nav.js"></script>
+        <div id="grandOpeningModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <p class="title">>> Grand Opening </p>
+                <img src="img/logo_small.png" class="logo" alt="">
+                <p class="body">Opening December 8th. We invite you to try our signature Kare and find out what makes us Chubby!</p>
+            </div>
+        </div>
+        <header class="hero-section">
+            <div class="content">
+                <img src="img/logo_small.png" class="logo" alt="">
+                <p class="sub-heading">a modern japanese curry house</p>
+            </div>
+        </header>
+        <div class="hook">
+            <div class="content">
+                <div class="pictures">
+                    <div class="solo">
+                        <img src="img/food05.png" class="pic1" alt="">
+                    </div>
+                    <div class="stack">
+                        <img src="img/food03.png" class="pic2" alt="">
+                        <img src="img/food02.png" class="pic3" alt="">
+                    </div>
+                </div>
+                <div class="text">
+                    <p class="body">
+                        <span class="text-begin">Chubby Curry's </span>aim is to preserve the taste of homemade Japanese curry in a modern and lively
+                            environment where everyone has fun. 
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            <br>
+                            Our custom curry blend is a mixture of 25 different
+                            spices <span class="highlight">carefully</span> measured out.
+                    </p>
+                </div>
+            </div>
+            <div class="button">
+                <button class="action-button"><a href="./menu.html" class="link">SEE MENU</a></button>
+            </div>
+        </div>
+        <div class="collage">
+            <div class="row">
+                <img src="img/food01.png" class="pic1" alt="">
+                <div class="stack">
+                    <img src="img/food04.png" class="pic2" alt="">
+                    <img src="img/food06.png" class="pic3" alt="">
+                </div>
+                <img src="img/food07.png" class="pic4" alt="">
+                <img src="img/food05.png" class="pic6" alt="">
+            </div>
+        </div>
+        <footer>
+            <div class="footer-content">
+                <img src="img/logo_small.png" class="logo" alt="">
+            </div>
+        </footer>
+        <script>   
+            window.onload = function() {
+                var modal = document.getElementById("grandOpeningModal");
+                var span = document.getElementsByClassName("close")[0];
+                
+                span.onclick = function() {
+                    modal.style.display = "none";
+                }
+                
+                window.onclick = function(event) {
+                    if (event.target == modal) {
+                        modal.style.display = "none";
+                    }
+                }
+            }
+        </script>
+    </body>
+</html>
